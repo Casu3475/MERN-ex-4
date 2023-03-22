@@ -23,7 +23,7 @@ router.delete("/:id", deletePost);
 router.patch("/like-post/:id", likePost);
 router.patch("/unlike-post/:id", unlikePost);
 
-// comments
+// comments -
 router.patch("/comment-post/:id", postComment);
 router.patch("/edit-comment-post/:id", editPostComment);
 router.delete("/delete-comment-post/:id", deletePostComment);
